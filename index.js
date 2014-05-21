@@ -3,6 +3,7 @@ var through = require('through2');
 var spritesPreprocessor = require('sprites-preprocessor');
 var File = require('vinyl');
 var extend = require('node.extend');
+var path = require('path');
 
 var defaultOptions = {
   name: 'sprite.png'
@@ -30,8 +31,8 @@ var plugin = function(options) {
       stream.push(file);
 
       stream.push(new File({
-        path: options.name,
-        contents: new Buffer(image, 'utf-8')
+        path: path.basename(options.name),
+        contents: new Buffer(image, 'binary')
       }));
 
       callback();
