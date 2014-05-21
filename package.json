@@ -2,6 +2,7 @@
   "name": "gulp-sprites-preprocessor",
   "description": "",
   "version": "0.1.0",
+  "author": "Jan Sedivy <jansedivy@abdoc.net>",
   "repository": {
     "url": "git://github.com/madebysource/gulp-sprites-preprocessor.git"
   },
