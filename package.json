@@ -1,0 +1,22 @@
+{
+  "name": "gulp-sprites-preprocessor",
+  "description": "",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/madebysource/gulp-sprites-preprocessor.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "gulp-util": "^2.2.14",
+    "node.extend": "^1.0.10",
+    "sprites-preprocessor": "^0.1.5",
+    "through2": "^0.4.1",
+    "vinyl": "^0.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
