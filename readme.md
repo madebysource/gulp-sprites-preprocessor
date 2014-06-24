@@ -1,6 +1,6 @@
 # [gulp](http://gulpjs.com)-sprites-preprocessor [![Build Status](https://travis-ci.org/madebysource/gulp-sprites-preprocessor.svg?branch=master)](https://travis-ci.org/madebysource/gulp-sprites-preprocessor)
 
-> [Sprite Preprocessor](https://github.com/madebysource/sprite-preprocessor) - Generate sprites from css file
+> [Sprites Preprocessor](https://github.com/madebysource/sprites-preprocessor) - Generate sprites from css file
 
 ## Install
 
